@@ -1,11 +1,5 @@
-def add(a: int, b: int) -> int:
-    """
-    Return the sum of two numbers.
+def adder(num1: int, num2: int) -> int:
+    return num1 + num2
 
-    :param a: first number
-    :param b: second number
-    :return: sum of a and b
-    """
-    return a + b
-
-print(return)
+if __name__ == '__main__':
+    print(adder(3,7))
